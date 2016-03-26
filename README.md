@@ -16,6 +16,9 @@ export URL='your_api_url'
 export CLIENT_TOKEN='your_client_token'
 export SERVER_TOKEN='your_server_token'
 ```
+```sh
+$ exec $SHELL -l
+```
 
 #### 3. Boom!
 ```sh
