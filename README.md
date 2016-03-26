@@ -10,6 +10,8 @@ $ curl -X GET http://pushould.com/signup\?email\=your_awesome@email.com\&passwor
 ```sh
 # .zshrc
 # add these on the bottom of your .zshrc
+export EMAIL='your_awesome@email.com'
+export PASSWORD='your_awesome_password'
 export URL='your_api_url'
 export CLIENT_TOKEN='your_client_token'
 export SERVER_TOKEN='your_server_token'
