@@ -5,11 +5,11 @@ import os
 
 app = Flask(__name__)
 
-URL = os.environ['URL']
-SERVER_TOKEN = os.environ['SERVER_TOKEN']
-EMAIL = os.environ['EMAIL']
-PASSWORD = os.environ['PASSWORD']
-CLIENT_TOKEN = os.environ['CLIENT_TOKEN']
+URL = os.environ['O_URL']
+SERVER_TOKEN = os.environ['O_SERVER_TOKEN']
+EMAIL = os.environ['O_EMAIL']
+PASSWORD = os.environ['O_PASSWORD']
+CLIENT_TOKEN = os.environ['O_CLIENT_TOKEN']
 
 pushould = Pushould(url=URL,
                     server_token=SERVER_TOKEN,
