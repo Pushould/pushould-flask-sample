@@ -6,15 +6,20 @@ $ gem install pushould
 $ pushould signup
 ```
 
+###### or with curl
+```sh
+$ curl -X GET https://pushould.com/signup\?email\=your_name@your_email.com\&password\=your_password
+```
+
 ## 2. Set Environment Variables
 ```sh
 # .zshrc
 # add these on the bottom of your .zshrc
-export O_EMAIL='your_awesome@email.com'
-export O_PASSWORD='your_awesome_password'
-export O_URL='your_api_url'
-export O_CLIENT_TOKEN='your_client_token'
-export O_SERVER_TOKEN='your_server_token'
+export EMAIL='your_awesome@email.com'
+export PASSWORD='your_awesome_password'
+export URL='your_api_url'
+export CLIENT_TOKEN='your_client_token'
+export SERVER_TOKEN='your_server_token'
 ```
 ```sh
 $ exec $SHELL -l
