@@ -2,8 +2,8 @@
 
 #### 1. Create Account at pushoud.com
 ```sh
-$ curl -X GET http://pushould.com/signup\?email\=your_awesome@email.com\&password\=your_awesome_password
-# { url: 'your_api_url', client_token: 'your_client_token', server_token: 'your_server_token' }
+$ gem install pushould
+$ pushould signup
 ```
 
 #### 2. set environment variables
