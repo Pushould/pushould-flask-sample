@@ -1,4 +1,4 @@
-# Minimal [Flask](http://flask.pocoo.org/) App with [Pushould](https://yhoshino11.github.io)
+# Minimal [Flask](http://flask.pocoo.org/) App with [Pushould](https://pushould.com)
 
 ## 1. Create Account at [pushould.com](https://pushould.com)
 ```sh
