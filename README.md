@@ -8,7 +8,7 @@ $ pushould signup
 
 ###### or with curl
 ```sh
-$ curl -X GET https://pushould.com/signup\?email\=your_name@your_email.com\&password\=your_password
+$ curl -X GET https://pushould.com/signup\?email\=your_awesome@email.com\&password\=your_awesome_password
 ```
 
 ## 2. Set Environment Variables
