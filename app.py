@@ -19,7 +19,7 @@ pushould = Pushould(url=URL,
 
 @app.route('/')
 def index():
-    data = {'users': ['first', 'second', 'third'],
+    data = {'users': ['your', 'awesome', 'users'],
             'msg': 'from flask'}
     pushould.trigger(room='private area',
                      event='send',
@@ -32,7 +32,7 @@ def index():
 
 @app.route('/comment', methods=['POST'])
 def comment():
-    data = {'msg': 'new comment'}
+    data = {'msg': 'new comment from flask'}
     pushould.trigger(room='private area',
                      event='send',
                      data=data)
